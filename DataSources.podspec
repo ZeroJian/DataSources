@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.module_name = s.name
   s.default_subspec = 'Default'
   s.requires_arc = true
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
   s.ios.frameworks = 'UIKit'
 end
